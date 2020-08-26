@@ -37,7 +37,7 @@ export default {
     async handleChange(file, fileList) {
       let flag = this.beforeUpload(file);
       if (!flag) {
-        //失败不显示印章列表
+        //校验失败不显示图片
         this.showList = false;
       } else {
         this.showList = true;
