@@ -12,7 +12,7 @@ emementui组件获取图片Base64
     name: "OrgForm",
     components: { Upload },
     methods: {
-      getRequestFileBase64: function(e) {
+      getFileBase64: function(e) {
         console.log(e); //图片base64
       }, 
   }
